@@ -1,10 +1,10 @@
 {
-  "entrypoint": "index.html",
-  "tests": {
-    "bash": "test.sh"
-  },
-  "env": {
-    "runtime": "node",
-    "packages": ["jsdom"]
-  }
+  "tabs": [
+    "index.html",
+    "script.js",
+    "style.css"
+  ],
+  "terminals": [
+    "static-server -p 1337 --no-cache"
+  ]
 }
