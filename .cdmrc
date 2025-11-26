@@ -1,0 +1,10 @@
+{
+  "entrypoint": "index.html",
+  "tests": {
+    "bash": "test.sh"
+  },
+  "env": {
+    "runtime": "node",
+    "packages": ["jsdom"]
+  }
+}
